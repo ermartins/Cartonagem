@@ -15,7 +15,9 @@ public class MainController {
 	
 	
 	@RequestMapping(value ="/")
-	public ModelAndView login(ModelAndView model) {
+	public String login(ModelAndView model) {
+		
+		
 		return "index";
 	}
 }
